@@ -61,8 +61,8 @@ class eBayShopping{
     *
     * Provides product information extraction by introducing access to all 
     * get API methods from the Shopping API, with the exception of GeteBayTime.
-    * Available request types are: FindHalfProducts || FindPopularItems ||
-    * FindPopularSearches || FindProducts || FindReviewsAndGuides
+    * Available request types are: GetCategoryInfo ||GetItemStatus ||
+    * GetMultipleItems || GetShippingCosts || GetSingleItem || GetUserProfile
     */
     public function get($request, $ids, $alt_fields = null){
         //determine if requested API call is available from endpoints
